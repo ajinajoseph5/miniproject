@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for i in data %}
+   <h2>student details</h2>
+    <div style="border:  solid black 0.5px;margin-right: 800px;margin-left: 300px;">
+    <img src="/media/{{i.img}}" height="100px" width="100px" style="margin-top: 10px;margin-left: 10px">
+    <div style="margin-left:10px;">
+    <h3>ID:{{i.id}}</h3>
+    <h3>Name:{{i.name}}</h3>
+    <h3>Gender:{{i.gender}}</h3>
+    <h3>Email:{{i.email}}</h3>
+    <h3>Phone:{{i.phone}}</h3>
+</div>
+</div>
+   {% endfor %}
+   <button style="margin-left: 400px;width: 10%;margin-top: 10px; background-color: beige; text-decoration: none;" ><a href="{% url 'detail' %}" style="text-decoration: none;  padding: 5; color: black;">Edit</a></button>
+ 
+</body>
+</html>

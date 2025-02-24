@@ -1,0 +1,59 @@
+
+div{
+    background-color: white;
+    border: solid whitesmoke;
+    background-size:500px;
+    position: relative;
+    
+    
+    text-align: justify;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 0px 0px 30px 0px;
+    
+
+}
+form{
+    margin-left: 130px;
+}
+.text{
+width:280px;
+ height: 28px;
+ padding: 4px;
+ font-size: 17px;
+  color:rgb(92, 85, 85);
+background-color: whitesmoke;
+border: white ;
+}
+.pwd{
+ width:280px;
+ height: 28px;
+ padding: 4px;
+ font-size: 17px;
+  color:rgb(92, 85, 85);
+background-color: whitesmoke;
+border: white ;
+}
+.btn{
+    background-color: rgb(29, 72, 181);
+    width:150px;
+    height: 30px;
+    border-color: white;
+    margin-left: 60px;
+
+
+}
+h1{
+    text-align: center;
+}
+i{
+   
+    width: 50%;
+    margin-top: -60px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(92, 85, );
+}

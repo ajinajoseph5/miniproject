@@ -1,0 +1,126 @@
+/* body{
+    background-color: rgba(245, 245, 245, 0.718);
+  margin-top: -50px;
+  
+}
+form{
+    
+    font-size: 18px;
+    line-height: 28px;
+  
+
+}
+label{
+    font-family: sans-serif;
+    font-weight:14px;
+    color: rgb(77, 74, 74);
+}
+#secondp {
+ margin-top: -200px;
+ margin-left: 200px;
+ 
+}
+
+.first{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+button{
+    justify-content: center;
+    margin-left: 380px;
+    margin-top: 40px;
+    padding: 5px 40px;
+}
+
+.div1{
+    background-color: rgba(255, 255, 255, 0.8);
+   
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 370px 140px;
+}
+h1{
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: -60px;
+} */
+ /* General body styling */
+/* General body styling */
+body {
+    background-color: rgba(245, 245, 245, 0.9);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the form container */
+.div1 {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    width: 40%; /* Reduced width for smaller form size */
+    padding: 10px; /* Reduced padding for compact design */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto; /* Center horizontally */
+    font-size: 16px; /* Slightly smaller font size */
+    line-height: 24px; /* Adjusted line height */
+}
+
+/* Styling for headings */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px; /* Slightly smaller heading */
+}
+
+/* Labels styling */
+label {
+    font-weight: bold;
+    color: #4d4a4a;
+}
+
+/* Input fields and radio buttons */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: calc(50% - 15px); /* Adjusted width for smaller container */
+    margin: 8px 0;
+    padding: 6px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+button {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Reduced button size */
+    margin: 20px auto 0; /* Center the button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Slightly smaller font size */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Second section adjustments */
+#secondp {
+    margin-top: 15px; /* Reduced spacing */
+}
+
+/* First section */
+.first {
+    margin-top: 15px; /* Reduced spacing */
+}
+

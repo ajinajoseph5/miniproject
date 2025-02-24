@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'reg.css' %}">
+</head>
+<body>
+    
+    <div class="div1">
+   
+    <form method="POST" action="{% url 'reg' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1>Register form</h1><br>
+        <div class="first">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" ><br>
+        <label for="gender" id="gender">Gender</label><br>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female<br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" ><br>
+        <label for="phone">Phone</label><br>
+        <input type="text" name="phone" ><br>
+        <label for="photo">photo</label><br>
+        <input type="file" name="photo" >
+    </div>
+        <div id="secondp">
+        <label for="uname">username</label><br>
+        <input type="text" name="uname" ><br>
+        <label for="pwd">password</label><br>
+        <input type="password" name="pwd" ><br>
+        <label for="utype">usertype</label><br>
+        <input type="checkbox" name="utype" value="staff">staff
+        <input type="checkbox" name="utype" value="student">student<br>
+        </div>
+        <button type="submit" name="submit" >submit</button>
+    </form>
+    </div>
+</body>
+</html>
