@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*icq0doqgmt9ubzo1@!3mxp)g#qtyd#*o8w8bq+r!y*&6sg=$t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['student_manage.onrender.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['miniproject-1267.onrender.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
